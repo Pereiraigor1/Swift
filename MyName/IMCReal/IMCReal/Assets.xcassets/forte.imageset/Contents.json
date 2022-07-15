@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Black And Red Creative 5 Steps How To Be A Strong Man YouTube Thumbnail.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
