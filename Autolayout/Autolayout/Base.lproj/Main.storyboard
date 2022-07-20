@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Autolayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AutoLayout" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5eX-t0-96A">
+                                <rect key="frame" x="133" y="58" width="149" height="36"/>
+                                <color key="tintColor" red="0.66665995489999996" green="0.48817073080000001" blue="0.03838751772" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="0.66665995489999996" green="0.45676530370000001" blue="0.059399675450000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square.and.arrow.up.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="5e0-g7-pb0">
+                                <rect key="frame" x="82" y="176.5" width="251" height="223"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VQs-uU-lmQ">
+                                <rect key="frame" x="111" y="463" width="192" height="81"/>
+                                <color key="backgroundColor" red="0.66665995489999996" green="0.48817073080000001" blue="0.03838751772" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="labelColor"/>
+                        <constraints>
+                            <constraint firstItem="5e0-g7-pb0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="62" id="7zE-1f-mrQ"/>
+                            <constraint firstItem="5e0-g7-pb0" firstAttribute="top" secondItem="5eX-t0-96A" secondAttribute="bottom" constant="82" id="AaW-ws-a0a"/>
+                            <constraint firstItem="5e0-g7-pb0" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:4" id="DUH-nC-pAh"/>
+                            <constraint firstItem="5eX-t0-96A" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="14" id="Dbi-Vi-EGd"/>
+                            <constraint firstItem="5e0-g7-pb0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="62" id="Dhe-F7-4on"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="VQs-uU-lmQ" secondAttribute="bottom" constant="318" id="Oja-7H-5qo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5e0-g7-pb0" secondAttribute="trailing" constant="61" id="duD-b5-kDs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5e0-g7-pb0" secondAttribute="trailing" constant="61" id="fsS-zQ-5Ya"/>
+                            <constraint firstItem="VQs-uU-lmQ" firstAttribute="top" secondItem="5e0-g7-pb0" secondAttribute="bottom" constant="63" id="gT3-3a-kfZ"/>
+                            <constraint firstItem="5eX-t0-96A" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="113" id="k1Q-Wd-T6O"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VQs-uU-lmQ" secondAttribute="trailing" constant="91" id="n6P-f9-qqK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5eX-t0-96A" secondAttribute="trailing" constant="112" id="zfb-eL-HMD"/>
+                            <constraint firstItem="VQs-uU-lmQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="91" id="zk6-IE-4ZZ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28.985507246376812" y="69.642857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="square.and.arrow.up.circle.fill" catalog="system" width="128" height="121"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
